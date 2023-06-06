@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMessage } from './redux/messagesSlice';
+import { fetchMessage } from '../redux/messagesSlice';
 
 const Greeting = () => {
   const messages = useSelector((state) => state.messages);
